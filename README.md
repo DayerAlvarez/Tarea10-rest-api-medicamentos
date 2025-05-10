@@ -5,7 +5,7 @@
 1. Clonar Repositorio
 
 ```
-git clone https://
+git clone https://github.com/DayerAlvarez/Tarea10-rest-api-medicamentosgit status
 ```
 
 2. Reconstruir node_modules

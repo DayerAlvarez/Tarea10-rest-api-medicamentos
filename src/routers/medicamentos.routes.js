@@ -10,6 +10,7 @@ import {
 } from '../controllers/medicamentos.controller.js'
 const router = Router();
 
+
 // Rutas GET
 router.get('/medicamentos', getMedicamentos)
 router.get('/medicamentos/:id', getMedicamentoByid)

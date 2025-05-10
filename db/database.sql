@@ -7,7 +7,7 @@ CREATE TABLE medicamentos
   id              INT AUTO_INCREMENT PRIMARY KEY,
   tipo            ENUM('A','B','C')    NOT NULL,
   nombre          VARCHAR(120)         NOT NULL,
-  nomcomercial    VARCHAR(40)          NULL,     -- Permitimos NULL para este campo
+  nomcomercial    VARCHAR(40)          NULL,     
   presentacion    ENUM('A','B','C')    NOT NULL,
   receta          ENUM('S','N')        NOT NULL,
   precio          DECIMAL(7,2)         NOT NULL 

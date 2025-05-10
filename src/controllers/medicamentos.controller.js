@@ -2,6 +2,7 @@ import {pool} from '../db.js'
 //req = requiere > solicitud  (CLIENTE) 
 //res = results > respuesta (SERVIDOR)
 
+
 export const getMedicamentos = async (req, res) => {
   try{
     const querySQL = "SELECT * FROM medicamentos"
